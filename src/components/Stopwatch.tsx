@@ -18,7 +18,7 @@ const Stopwatch = ({ isRunning = false }: StopwatchProps): React.ReactNode => {
   const { seconds, minutes, hours } = msToDuration(time);
 
   return (
-    `${hours}:${minutes}:${seconds}`
+    `${hours}  ${minutes}  ${seconds}`
   );
 };
 
